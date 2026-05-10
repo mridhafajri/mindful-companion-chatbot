@@ -11,7 +11,7 @@ Proyek ini dibuat sebagai *Final Project* untuk pelatihan **AI for Productivity 
 - **Premium UI**: Desain modern dengan efek *Glassmorphism* dan animasi yang halus.
 
 ## 📸 Tampilan Antarmuka
-![Tampilan Mindful Companion](screenshot.png)
+![Tampilan Mindful Companion](preview.png)
 
 ## 🛠️ Teknologi yang Digunakan
 - **Frontend**: HTML5, Vanilla CSS, JavaScript.
