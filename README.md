@@ -2,27 +2,29 @@
 
 **Mindful Companion** adalah chatbot kesehatan mental berbasis AI yang dirancang untuk menjadi ruang aman bagi pengguna untuk bercerita (journaling harian) dan mendapatkan saran teknik relaksasi. 
 
-Proyek ini dibuat sebagai *Final Project* untuk pelatihan **AI Productivity and AI API Integration for Developers**.
+Proyek ini dibuat sebagai *Final Project* untuk pelatihan **AI for Productivity (Vibe Coding)**.
 
 ## ✨ Fitur Utama
-- **Empathetic AI Persona**: Dikonfigurasi khusus untuk merespon dengan gaya bahasa yang menenangkan dan mendukung.
+- **Empathetic AI Persona**: Dikonfigurasi menggunakan **Gemini 3.1 Flash Lite** untuk merespon dengan gaya bahasa yang menenangkan dan mendukung.
 - **Daily Journaling**: Membantu pengguna merefleksikan hari mereka dengan pertanyaan terbuka.
 - **Relaxation Techniques**: Memberikan saran teknik pernapasan dan *grounding* saat dibutuhkan.
-- **Premium UI**: Desain modern dengan efek *Glassmorphism* dan animasi yang halus untuk memberikan rasa tenang.
-- **Responsive Design**: Nyaman digunakan di perangkat desktop maupun mobile.
+- **Premium UI**: Desain modern dengan efek *Glassmorphism* dan animasi yang halus.
+
+## 📸 Tampilan Antarmuka
+![Tampilan Mindful Companion](screenshot.png)
 
 ## 🛠️ Teknologi yang Digunakan
 - **Frontend**: HTML5, Vanilla CSS, JavaScript.
 - **Backend**: Node.js, Express.js.
-- **AI Model**: Google Gemini 1.5 Flash API.
+- **AI Model**: Google Gemini 3.1 Flash Lite.
 - **Formatting**: Marked.js untuk render teks markdown.
 
 ## 🚀 Cara Menjalankan Secara Lokal
 
 1. **Clone Repositori**
    ```bash
-   git clone https://github.com/USERNAME/project-name.git
-   cd project-name
+   git clone https://github.com/mridhafajri/mindful-companion-chatbot.git
+   cd mindful-companion-chatbot
    ```
 
 2. **Instal Dependensi**
@@ -35,7 +37,6 @@ Proyek ini dibuat sebagai *Final Project* untuk pelatihan **AI Productivity and 
    - Masukkan API Key Gemini Anda:
      ```env
      GEMINI_API_KEY=isi_dengan_api_key_anda
-     PORT=3000
      ```
 
 4. **Jalankan Server**
@@ -44,8 +45,5 @@ Proyek ini dibuat sebagai *Final Project* untuk pelatihan **AI Productivity and 
    ```
    Buka `http://localhost:3000` di browser Anda.
 
-## 📸 Tampilan Antarmuka
-*(Tambahkan screenshot UI di sini)*
-
 ---
-Dibuat dengan ❤️ untuk mendukung kesehatan mental yang lebih baik.
+Dibuat dengan ❤️ oleh M Ridha Fajri.
