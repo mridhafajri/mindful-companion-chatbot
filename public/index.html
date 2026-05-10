@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mindful Companion | Your Safe Space</title>
+    <meta name="description" content="Teman curhat AI yang empatik untuk journaling harian dan relaksasi.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+</head>
+<body>
+    <div class="background-blobs">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <main class="app-container">
+        <header class="app-header">
+            <div class="logo-container">
+                <div class="logo-icon">✨</div>
+                <h1>Mindful Companion</h1>
+            </div>
+            <p class="tagline">Ruang aman untuk bercerita dan bertumbuh.</p>
+        </header>
+
+        <div id="chat-container" class="chat-container">
+            <div class="message model-message">
+                <div class="message-content">
+                    Halo, saya <strong>Mindful Companion</strong>. ✨ <br>
+                    Bagaimana perasaanmu hari ini? Saya di sini untuk mendengarkanmu tanpa menghakimi.
+                </div>
+            </div>
+        </div>
+
+        <div class="input-area">
+            <div class="input-wrapper">
+                <textarea id="user-input" placeholder="Ceritakan harimu di sini..." rows="1"></textarea>
+                <button id="send-btn" title="Kirim">
+                    <svg viewBox="0 0 24 24" width="24" height="24">
+                        <path fill="currentColor" d="M2.01 21L23 12 2.01 3 2 10l15 2-15 2z"></path>
+                    </svg>
+                </button>
+            </div>
+            <p class="input-footer">Curahkan apapun yang ada di pikiranmu.</p>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
