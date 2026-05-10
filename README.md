@@ -2,7 +2,7 @@
 
 **Mindful Companion** adalah chatbot kesehatan mental berbasis AI yang dirancang untuk menjadi ruang aman bagi pengguna untuk bercerita (journaling harian) dan mendapatkan saran teknik relaksasi. 
 
-Proyek ini dibuat sebagai *Final Project* untuk pelatihan **AI for Productivity (Vibe Coding)**.
+Proyek ini dibuat sebagai *Final Project* untuk pelatihan **AI Productivity and AI API Integration for Developers**.
 
 ## ✨ Fitur Utama
 - **Empathetic AI Persona**: Dikonfigurasi menggunakan **Gemini 3.1 Flash Lite** untuk merespon dengan gaya bahasa yang menenangkan dan mendukung.
